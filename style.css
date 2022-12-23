@@ -1,0 +1,21 @@
+.main-container{
+    width: 90%;
+    margin: 10px auto;
+    /* text-align: center; */
+}
+.main-container h1{
+    text-align: center;
+}
+.input-fields{
+    padding-bottom: 1rem;
+}
+.button-wrapper{
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+.req-fields::after{
+    content: " *";
+    color: red;
+}
